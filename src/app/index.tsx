@@ -1,12 +1,11 @@
-import { View, Text } from "react-native"
+import { View, Text } from "react-native";
 
-import { Button } from "@/components/button/"
+import Menu from "./menu"
 
 export default function Index(){
   return(
-    <View>
-      <Text>Hello World!</Text>
-      <Button title="Iniciar"/>
+    <View className="flex-1">
+      <Menu/>
     </View>
   )
 }
